@@ -16,7 +16,7 @@ export const API_ENDPOINTS = {
     TRANSITION: (id) => `/work-items/${id}/transition`,
     ASSIGN: (id) => `/work-items/${id}/assign`,
     PRIORITY: (id) => `/work-items/${id}/priority`,
-    COMMENTS: (id) => `/work-items/${id}/comments`,
+    COMMENTS: (id) => `/work-items/${id}/comments/`,
     SIMULATE_CONFLICT: (id) => `/work-items/${id}/simulate-conflict`,
   },
 
